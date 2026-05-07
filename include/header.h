@@ -1320,4 +1320,11 @@ public:
     void test(void);
 };
 
+class Solution_438
+{
+    vector<int> findAnagrams(string s, string p);
+
+    void test(void);
+};
+
 #endif /* header_h */
