@@ -39,6 +39,8 @@ struct TreeNode
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
 
+void print_list(ListNode *head);
+
 void test(void);
 
 class Solution_88
@@ -1322,7 +1324,36 @@ public:
 
 class Solution_438
 {
+public:
     vector<int> findAnagrams(string s, string p);
+
+    void test(void);
+};
+
+class Solution_560
+{
+public:
+    int subarraySum(vector<int> &nums, int k);
+
+    int subarraySum_(vector<int> &nums, int k);
+
+    void test(void);
+};
+
+class Solution_160
+{
+public:
+    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB);
+
+    ListNode *getIntersectionNode_(ListNode *headA, ListNode *headB);
+
+    void test(void);
+};
+
+class Solution_206
+{
+public:
+    ListNode *reverseList(ListNode *head);
 
     void test(void);
 };
