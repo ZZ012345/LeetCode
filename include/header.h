@@ -1358,4 +1358,12 @@ public:
     void test(void);
 };
 
+class Solution_543
+{
+public:
+    int diameterOfBinaryTree(TreeNode *root);
+
+    void test(void);
+};
+
 #endif /* header_h */
