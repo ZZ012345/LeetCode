@@ -1366,4 +1366,12 @@ public:
     void test(void);
 };
 
+class Solution_239
+{
+public:
+    vector<int> maxSlidingWindow(vector<int> &nums, int k);
+
+    void test(void);
+};
+
 #endif /* header_h */
