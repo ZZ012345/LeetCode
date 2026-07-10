@@ -39,7 +39,9 @@ struct TreeNode
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
 
-void print_list(ListNode *head);
+void print_list(const ListNode *head);
+
+void print_vector(const vector<int> &vec);
 
 void test(void);
 
@@ -1368,8 +1370,54 @@ public:
 
 class Solution_239
 {
+    deque<int> non_ascending_maxima;
+
+    void add_value(int val);
+
+    void remove_value(int val);
+
+    int get_maximum();
+
 public:
     vector<int> maxSlidingWindow(vector<int> &nums, int k);
+
+    void test(void);
+};
+
+class Solution_240
+{
+public:
+    bool searchMatrix(vector<vector<int>> &matrix, int target);
+
+    bool searchMatrix_(vector<vector<int>> &matrix, int target);
+
+    void test(void);
+};
+
+class Solution_234
+{
+public:
+    bool isPalindrome(ListNode *head);
+
+    void test(void);
+};
+
+class Solution_142
+{
+public:
+    ListNode *detectCycle(ListNode *head);
+
+    void test(void);
+};
+
+class Solution_437
+{
+    vector<long long> dfs(TreeNode *node, int target, int &cnt);
+
+    int dfs(TreeNode *node, long long target);
+
+public:
+    int pathSum(TreeNode *root, int targetSum);
 
     void test(void);
 };
