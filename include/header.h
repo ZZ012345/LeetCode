@@ -1422,4 +1422,12 @@ public:
     void test(void);
 };
 
+class Solution_994
+{
+public:
+    int orangesRotting(vector<vector<int>> &grid);
+
+    void test(void);
+};
+
 #endif /* header_h */
