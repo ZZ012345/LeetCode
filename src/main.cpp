@@ -9,7 +9,7 @@
 
 int main(int argc, const char *argv[])
 {
-    Solution_994 solution;
+    Solution_394 solution;
     solution.test();
     
     //test();

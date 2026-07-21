@@ -1430,4 +1430,22 @@ public:
     void test(void);
 };
 
+class Solution_78
+{
+    void dfs(vector<int> &nums, int k, vector<vector<int>> &result);
+
+public:
+    vector<vector<int>> subsets(vector<int> &nums);
+
+    void test(void);
+};
+
+class Solution_394
+{
+public:
+    string decodeString(string s);
+
+    void test(void);
+};
+
 #endif /* header_h */
