@@ -1448,4 +1448,32 @@ public:
     void test(void);
 };
 
+class Solution_347
+{
+public:
+    vector<int> topKFrequent(vector<int> &nums, int k);
+
+    void test(void);
+};
+
+class Solution_131
+{
+    vector<vector<int>> get_palindrome(string &s);
+
+    void dfs(string &s, int pos, vector<vector<int>> &dp, vector<string> &tmp, vector<vector<string>> &result);
+
+public:
+    vector<vector<string>> partition(string s);
+
+    void test(void);
+};
+
+class Solution_739
+{
+public:
+    vector<int> dailyTemperatures(vector<int> &temperatures);
+
+    void test(void);
+};
+
 #endif /* header_h */
